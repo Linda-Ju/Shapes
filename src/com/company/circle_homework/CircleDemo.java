@@ -12,8 +12,5 @@ public class CircleDemo {
 
         System.out.println(circle.area());
         System.out.println(circle.circumference());
-
-
-
     }
 }

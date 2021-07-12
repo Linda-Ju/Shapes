@@ -9,7 +9,8 @@ public class Rectangle {
         this.length = length;
     }
 
-    public Rectangle(){}
+    public Rectangle() {
+    }
 
     public int getBreadth() {
         return breadth;
@@ -30,8 +31,9 @@ public class Rectangle {
     public int getArea() {
         return this.length * this.breadth;
     }
-    public int getPerimeter(){
-        return 2*(this.length + this.breadth);
+
+    public int getPerimeter() {
+        return 2 * (this.length + this.breadth);
     }
 
 }
